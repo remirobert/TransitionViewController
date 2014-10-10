@@ -5,7 +5,19 @@
 TransitionViewController is the protage of <a href="https://github.com/remirobert/RRCustomPageController">RRCustomPageController</a> for Swift language.
 Check out the link for more details.
 
+<hr>
 <h1 align="center">How to use it</h1>
+
+Firstly, you have to add the protocol **PageController** to your UIViewController class.
+
+```Swift
+@objc protocol PageController {
+    var titlePageController: String? {get set}
+    var imagePageController: UIImage? {get set}
+}
+```
+
+<hr>
 
 ```Swift
 func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
