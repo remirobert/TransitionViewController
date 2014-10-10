@@ -44,3 +44,10 @@ func application(application: UIApplication, didFinishLaunchingWithOptions launc
   return true
 }
 ```
+
+<h1 align="center">Author</h1>
+Rémi ROBERT, remi.robert@epitech.eu
+
+<h1 align="center">License</h1>
+TransitionViewController is available under the MIT license. See the LICENSE file for more info.
+
