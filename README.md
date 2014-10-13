@@ -25,15 +25,12 @@ func application(application: UIApplication, didFinishLaunchingWithOptions launc
                                                   UIScreen.mainScreen().bounds.size.height))
         
   var c1 = testViewController()
-  c1.view.backgroundColor = UIColor.orangeColor()
   c1.imagePageController = UIImage(named: "user3")
 
   var c2 = testViewController()
-  c2.view.backgroundColor = UIColor.greenColor()
   c2.titlePageController = "Custom Transition"
 
   var c3 = testViewController()
-  c3.view.backgroundColor = UIColor.greenColor()
   c3.imagePageController = UIImage(named: "like")
       
   let transitionController = TransitionViewController(controllersParam: [c1, c2, c3])
