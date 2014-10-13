@@ -121,7 +121,7 @@ class TransitionViewController: UIViewController, UIScrollViewDelegate {
             var controller = (currentPage as UIViewController)
             
             let newFrame = CGRectMake(CGFloat(currentIndexOffsetX), 0, controller.view.frame.size.width,
-                controller.view.frame.size.height - 64)
+                controller.view.frame.size.height - 44)
             controller.view.frame = newFrame
             self.pageScroll.addSubview((currentPage as UIViewController).view)
             currentIndexOffsetX += Float(UIScreen.mainScreen().bounds.size.width)
